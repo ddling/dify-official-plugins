@@ -1,7 +1,6 @@
-model: Kimi-K2
+model: openpangu-2.0-flash
 label:
-  zh_Hans: Kimi-K2
-  en_US: Kimi-K2
+  en_US: openPangu-2.0-Flash
 model_type: llm
 features:
   - agent-thought
@@ -34,7 +33,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: "4"
-  output: "16"
-  unit: "0.000001"
+  input: '0.8'
+  output: '1.6'
+  unit: '0.000001'
   currency: RMB
